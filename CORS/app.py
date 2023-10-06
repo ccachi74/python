@@ -5,9 +5,9 @@ from flask import render_template
 app1 = Flask(__name__)
 
 # Access-Control-Allow-Origin 설정
-# CORS(app1, resources={
-#     r'*': {'origin':'http://localhost:5000/'}
-#     })
+CORS(app1, resources={
+    r'*': {'origin':'http://localhost:5000/'}
+    })
 CORS(app1)
 
 @app1.route('/')
