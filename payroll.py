@@ -77,7 +77,8 @@ def createPage(databaseId, headers, page_values):
     print(res.status_code)
 
 # Notion API Token
-token = "secret_R12tFCcdgBrs7M03RdE0owy59499SODVL1PBwJZz7G1"
+# Notion 에서 Token 업데이트
+token = "xxx"
 
 # Payroll DB
 databaseId = "69188ca8282643e691d598d39364dfd1"
